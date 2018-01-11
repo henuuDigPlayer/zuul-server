@@ -1,0 +1,9 @@
+server:
+  port: 9003
+spring:
+  application:
+    name: zuul-lindj
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.1.41:8000/eureka/
